@@ -23,3 +23,5 @@ repos:
     rev: 7.0.0
     hooks:
       - id: flake8
+        args: [--config=aula_06/.flake8]
+        files: ^aula_06/
